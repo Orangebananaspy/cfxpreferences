@@ -9,7 +9,7 @@
 You will need to add ```com.orangebananaspy.cfxpreferences``` in the depends line of your control file to ensure that users have this library installed
 
 ### Saving Preferences
-This is a very simple task, use the PreferenceBundles you have been using with no extra steps to actually saving the preferences to file on disk. cfprefsd automatically saves the values just ensure that you are adding the keys for each cell that you want to save as a preference
+This is a very simple task, use the PreferenceBundles you have been using with no extra steps to actually saving the preferences to file on disk. cfprefsd automatically saves the values just ensure that you are adding the keys for each cell that you want to save as a preference. The keys being default, defaults, and key
 ```xml
 <dict>
   <key>cell</key>
