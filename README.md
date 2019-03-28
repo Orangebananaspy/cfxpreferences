@@ -79,7 +79,7 @@ if (!preferences) {
 ```
 
 ### Flushing Preferences
-Flushing preferences basically transfers preferences loaded in cfprefsd from a temporary storage to a permanent storage on the device, important to call when a user has updated tweak preferences. The recommended places to call this is right before a respring, or if a respring is not required for your tweak basically when the user is done making any changed to the preferences of the tweak. Calling this ensures that the preference values stay up to date
+Flushing preferences basically transfers preferences loaded in cfprefsd from a temporary storage to a permanent storage on the device, important to call when a user has updated tweak preferences. The recommended places to call this is right before a respring, or if a respring is not required for your tweak basically when the user is done making any changes to the preferences of the tweak. Calling this ensures that the preference values stay up to date
 ```objectivec
 void *prefsHandle = dlopen("/usr/lib/CFXPreferences.dylib", RTLD_NOW);
 if (prefsHandle) {
