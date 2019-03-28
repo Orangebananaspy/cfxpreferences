@@ -1,0 +1,10 @@
+Package: com.orangebananaspy.cfxpreferences
+Name: CFXPreferences
+Depends: firmware (>= 11.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Flush and get preferences from cfprefsd
+Maintainer: Orangebananaspy
+Author: Orangebananaspy
+Section: System
+Tag: role::developer, compatible::ios11, compatible::ios12
